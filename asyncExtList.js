@@ -2,8 +2,15 @@
 How to run...
 ex:  node asyncExtList.js user/whatever/desktop .pdf
 -------------------------------------------
-this is going to look for all the pdf files
-in the desktop directory and display in the console... 
+this is going to search for pdf files in the desktop directory
+and display them in the console...
+
+you can use this to search for an file in a given directory
+just change .pdf to whatever file you're searching for..
+Examples....
+node asyncExtList.js user/whatever/desktop .doc
+node asyncExtList.js user/whatever/desktop .txt
+node asyncExtList.js user/whatever/desktop .js 
 */
 
 
