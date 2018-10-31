@@ -1,3 +1,12 @@
+/*
+How to run...
+ex:  node asyncExtList.js user/whatever/desktop .pdf
+-------------------------------------------
+this is going to look for all the pdf files
+in the desktop directory and display in the console... 
+*/
+
+
 var fs = require('fs');
 var path = require('path');
 
